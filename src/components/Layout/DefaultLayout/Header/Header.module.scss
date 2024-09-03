@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  width: 6%;  
+  cursor: pointer;
+  position: relative;
+}
+path {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scroll {
+  display: flex;
+}
+.logo {
+  width: 20%;
+}
+.trend {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  left: 70px;
+  background-color: white;
+}
+.auto {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  cursor: pointer;
+}

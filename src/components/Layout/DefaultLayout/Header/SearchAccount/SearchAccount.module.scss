@@ -1,0 +1,74 @@
+.search {
+  position: relative;
+  width: 30%;
+  background-color: #f3f4f6;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.tp {
+  background-color: #d1d5db;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input {
+  background-color: transparent;
+  width: 90%;
+  caret-color: black;
+  margin-left: 15px;
+}
+.avatar {
+  width: 32px;
+  background-color: #e5e7eb;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.mode {
+  margin-left: 15px;
+  cursor: pointer;
+  // position: relative;
+}
+.icon {
+  position: absolute;
+  bottom: 5px;
+  font-size: large;
+}
+.tip-result {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 100%;
+  width: 362px;
+  padding: 20px;
+}
+.logo {
+  width: 28px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.inform {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+}
+.nick {
+  font-size: x-small;
+}

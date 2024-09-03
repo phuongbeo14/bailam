@@ -1,0 +1,28 @@
+.asset {
+  display: flex;
+}
+.nickname {
+  display: flex;
+  align-items: start;
+}
+.name {
+  font-size: small;
+  display: flex;
+  align-items: start;
+}
+.vote {
+    display: flex;
+    justify-content: flex-end;
+}
+.total {
+    display: flex;
+    justify-content: flex-end;
+    color: #4f46e5;
+}
+.icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,263 @@
+.menu1 {
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 99;
+}
+.logo {
+  width: 688px;
+  height: 85px;
+}
+.icon {
+  width: 64px;
+}
+.logan {
+  width: 20px;
+}
+.num {
+  background-color: #ef4444;
+  color: white;
+  width: 75px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.link {
+  margin-right: 0.5rem;
+  background-color: #f3f4f6;
+  width: 166px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 4px;
+}
+.sol {
+  background-color: #f3f4f6;
+  width: 116px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.image {
+  width: 28px;
+  background-color: white;
+  border-radius: 15px;
+}
+.copy {
+  font-size: large;
+}
+.co {
+  width: 28px;
+  height: 28px;
+  background-color: #d1d5db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.contact {
+  font-size: larger;
+}
+.ton {
+  width: 40px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+.sup {
+  font-size: x-large;
+  color: white;
+}
+.but1 {
+  background-color: #0891b2;
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.but2 {
+  background-color: black;
+  width: 38px;
+  height: 38px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.but3 {
+  background-color: #49a9e9;
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6;
+  margin-right: 1rem;
+}
+.box1 {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6;
+  margin-left: 1rem;
+}
+.img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+}
+.i {
+  width: 16px;
+  margin-right: 5px;
+}
+.im {
+  width: 24px;
+}
+.row {
+  height: 62%;
+}
+.pop {
+  width: 200px;
+  background-color: #9e9fa2;
+}
+.chart {
+  width: 855px;
+  height: 590px;
+}
+.text {
+  margin-right: 15px;
+  background-color: #f3f4f6;
+  padding: 5px;
+  border-radius: 10px;
+}
+.spin {
+  animation-name: spinner;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+@keyframes spinner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+.respin {
+  animation-name: spin;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+.collap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+.text1 {
+  background-color: white;
+  padding: 0;
+  margin: 5px;
+  cursor: pointer;
+}
+.note {
+  font-size: small;
+  margin-top: 10px;
+}
+.slice {
+  height: 4px;
+  background-color: #6366f1;
+  border-radius: 5px;
+}
+.te {
+  font-size: medium;
+}
+.follow {
+  background-color: black;
+  color: white;
+  width: 80px;
+  border-radius: 50px;
+}
+.ava {
+  width: 40px;
+  height: 40px;
+}
+.acc {
+  font-size: x-large;
+}
+.content {
+  width: 386px;
+  text-align: start;
+  position: relative;
+  z-index: 1;
+}
+.video {
+  width: 386px;
+  height: 185;
+}
+.info {
+  background-color: white;
+  color: black;
+}
+.play {
+  font-size: xxx-large;
+  color: white;
+}
+.pl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 140px;
+  left: 170px;
+  background-color: #767779;
+  width: 20%;
+  height: 25%;
+  border-radius: 100%;
+  z-index: 0;
+}
+.swi {
+  width: 1320px;
+}

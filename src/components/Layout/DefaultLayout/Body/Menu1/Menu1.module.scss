@@ -1,0 +1,26 @@
+.menu {
+  padding: 0;
+  width: 80%;
+}
+.top {
+  width: 10%;
+  display: flex;
+  background-color: #f3f4f6;
+  margin-right: 10px;
+  border-radius: 10%;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  height: 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: sticky;
+}
+.logo {
+  width: 26px;
+}
+.text {
+  text-align: start;
+  margin: 0;
+  width: 81%;
+}

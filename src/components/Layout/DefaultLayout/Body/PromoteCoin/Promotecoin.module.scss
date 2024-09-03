@@ -1,0 +1,35 @@
+.asset {
+  display: flex;
+  cursor: pointer;
+}
+.nickname {
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+}
+.name {
+  font-size: small;
+  display: flex;
+  align-items: start;
+  cursor: pointer;
+}
+.vote {
+  display: flex;
+  justify-content: flex-end;
+}
+.total {
+  display: flex;
+  justify-content: flex-end;
+  color: #4f46e5;
+}
+.icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.link {
+  color: black;
+}

@@ -1,0 +1,77 @@
+.inform {
+  display: flex;
+  justify-content: space-between;
+}
+.creator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.support {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  font-size: large;
+}
+.spin {
+  animation-name: spinner;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+@keyframes spinner {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.respin {
+  animation-name: spin;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+@keyframes spin {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.tip-result {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 100%;
+  width: 171px;
+  padding: 20px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+}
+btn {
+  background-color: transparent;
+}
+.nut {
+  background-color: transparent;
+}
+.pop {
+  width: 10%;
+  border: none;
+  font-size: medium;
+  padding-left: 40px;
+}

@@ -1,0 +1,69 @@
+.top {
+  width: 30px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.coin {
+  width: 280px;
+  font-size: large;
+  margin-bottom: 20px;
+  display: flex;
+}
+.watchlist,
+.categories,
+.add,
+.advertise,
+.webx,
+.webtele {
+  width: 320px;
+  font-size: large;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  position: absolute;
+  z-index: 3;
+  left: 2px;
+  width: 70px;
+  background-color: white;
+  overflow: hidden;
+  transition: transform 0.3s ease, width 0.3s ease;
+  cursor: pointer;
+  
+
+  &:hover {
+    transform: scale(1);
+    width: 270px;
+  }
+}
+.text {
+  margin-bottom: 0;
+  margin-left: 55px;
+  margin-right: 114px;
+}
+.spin {
+  animation-name: spinner;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+@keyframes spinner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+.collap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
